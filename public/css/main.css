@@ -1,0 +1,151 @@
+
+
+/* GENERAL */
+
+body {
+  text-align: center;
+  font-family: Oswald;
+}
+
+.title h1 {
+  font-size: 1.1em;
+  margin: 20px auto;
+}
+
+/* INPUT COMPONENT */
+
+.input-holder {
+  margin: 20px auto;
+  width: 800px;
+  text-align: center;
+}
+
+label { 
+  font-size: 1.5em;
+}
+
+.input {
+  width: 200px;
+  margin: 0px auto;
+}
+
+.add-btn {
+
+}
+
+.stock-buttons {
+  margin: 0px auto;
+}
+
+.stock-button {
+  font-weight: bolder;
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin: 5px;
+}
+
+.stock-button:hover {
+  color: white;
+}
+
+/* ERROR MODAL */
+
+.modal-body {
+  font-size: 20px;
+  text-align: center;
+}
+
+.close-button {
+  margin: 10px;
+}
+
+#x {
+  margin-left: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+/* SVG CONTAINER */
+
+svg {
+  margin: 0px auto;
+  width: 800px;
+}
+
+.text { 
+  fill: gray;
+}
+
+path.axes {
+  fill: none;
+  stroke: gray;
+  stroke-width: 2;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: geometricPrecision;
+}
+		
+.axis text {
+  font-size: 11px;
+			}
+
+.title {
+  font-size: 3em;
+}
+
+.sub-title {
+  font-size: 2em;
+}
+
+.label {
+  
+  font-size: 1.1em;
+}
+
+div.tooltip, div.detail {   
+  position: absolute;           
+  text-align: center;                
+  padding: 2px;             
+  font: 12px;  
+  color: white;
+  background: black;
+  border: 1px solid black;         
+  pointer-events: none;     
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 25%;
+  margin: 40px auto;
+}
+
+footer ul {
+  text-indent: none;
+  list-style-type: none;
+  padding: 3px;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 20px;
+  
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+}
+
+footer ul li a:hover {
+  color: slateblue;
+}
+
